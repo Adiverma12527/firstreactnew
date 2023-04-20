@@ -1,7 +1,7 @@
 import './App.css';
 import { Button } from './components/button/button';
-import Card from './components/card/card';
-
+import {Card} from './components/card/card';
+import {logo }from './components/logo/logo';
 function App() {
 
   //  components -/> small isolated piece of code of you complete ui .
@@ -27,9 +27,11 @@ function App() {
 
   return (
     <div className="App">
+    <logo/>
       <h1>Welcome to react js  ....</h1>
+      <card/>
       <Button/>
-      <Card/>
+
     </div>
   );
 }
