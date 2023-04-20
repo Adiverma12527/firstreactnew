@@ -1,37 +1,18 @@
-import './App.css';
-import { Button } from './components/button/button';
-import Card from './components/card/card';
-
-function App() {
-
-  //  components -/> small isolated piece of code of you complete ui .
-  // components  -/> functions (react function)
-  //  js function -/> takes datatype as input and return data types
-  // react function -/> takes props as input and return jsx / html likw components .
-  //  react functions startWith Capital letter only . 
-
-
-//   Jsx -/> javascript extension 
-//   it provides the power to write the html in js file 
-
-//  ui 
-//  functionality 
-//  data management 
-//  folder structure (Atomic folder structure)
-
-
-//  css  -> style to style the component
-//  js -/> code to ceate the component 
-
-
-
-  return (
-    <div className="App">
-      <h1>Welcome to react js  ....</h1>
-      <Button/>
-      <Card/>
+import logo from './logo.svg';
+import './App.css'
+function App(){
+  return(
+    <div className='App'>
+    <img src={logo} className="App-logo" alt="logo" />
+      <h1> benefits of usiing react...</h1>
+    
+    <p>1. component -based architecture</p>
+    <p>2. virtual DOMfor efficient updates 
+    </p>
+    <p>3. rich ecosystem and community</p>
+    <p>4.cross platform development </p>
+    <p>5. strong community support</p>
+    <button className="btn btn-primary"> get started</button>
     </div>
-  );
-}
-
-export default App;
+  )
+} export default App;
